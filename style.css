@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/fondo1.png);
+}
+
+header img {
+    display: inline;
+    float: right;
+    width: auto;
+    height: 80px;
+    margin: 10px 10% 0px 5%;
+}
+
+header h1 {
+    float: left;
+    background-color: #FFDDE8;
+    width: 55%;
+    margin: 10px 8% 20px 8%;
+    ;
+    height: 50px;
+    border: 5px solid #EC407A;
+    padding: 10px;
+    color: deeppink;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px #444;
+}
+
+hr {
+    margin: 0 0 30px 0;
+    height: 20px;
+    background-color: #D81B60;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* Estilos de la barra de navegacion */
+nav ul {
+    width: 60%;
+    margin: 0 20% 30px 20%;
+    list-style-type: none;
+    padding: 0;
+    background-color: #5e6c67;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    vertical-align: bottom;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #F06292;
+    transform: scale(1.03, 1.03);
+}
+
+.active {
+    background-color: #EC407A;
+}
+
+/* --------------------------------- */
+
+h3 {
+    width: 60%;
+    margin: 20px 20% 20px 20%;
+    text-align: center;
+    background-color: #EC407A;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+h2{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: #444;
+    border: 5px solid #EC407A;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+section {
+    width: 30%;
+    margin: auto;
+}
+
+ul,
+section p {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(210, 210, 210, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #444;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+section h4 {
+    width: 100%;
+    margin: 20px 0 0 13px;
+    color: deeppink;
+    font-family: monospace;
+    text-align: center;
+    font-size: 150%;
+}
+
+#borde {
+    width: 14%;
+    margin: 0 3%;
+    float: left;
+}
+
+.imagen {
+    width: 80%;
+    margin: 0 10%;
+    border-radius: 5px;
+}
+
+/* Estilos de los videos*/
+video{
+    width: 60%;
+    margin: 20px 20%;
+    border-radius: 15px;
+}
+
+
+/* Estilos del boton */
+
+button {
+    background-color: #EC407A;
+    border-radius: 10px;
+    width: 15%;
+    margin: 20px 42.5%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.25s;
+}
+
+button a {
+    text-decoration: none;
+    color: azure;
+    font-size: 120%;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* ------------------------------------------- */
+
+
+/* Estilos del pie de pagina */
+footer {
+    background-color: #EC407A;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 15px;
+}
+
+footer p{
+    margin-left: 3px;
+}
+
+footer img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+/* ---------------------------------- */ 
